@@ -1,0 +1,23 @@
+<ion-view view-title="Chats">
+    <ion-content scroll-sista="header" scroll-event-interval="5">
+        <!-- <div style="height: 6.5vh;"></div> -->
+        <ion-list>
+            <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
+                <img ng-src="{{chat.face}}">
+                <h2>{{chat.name}}</h2>
+                <p>{{chat.lastText}}</p>
+                <i class="icon ion-chevron-right icon-accessory"></i>
+                <ion-option-button class="button-assertive" ng-click="remove(chat)">
+                    Delete
+                </ion-option-button>
+            </ion-item>
+        </ion-list>
+        <div class="list card" ng-repeat="n in [1,2,3,4]">
+            <div class="item item-body">
+                <p>
+                    Bacon ipsum dolor amet beef cow pork, picanha sirloin filet mignon alcatra bacon ham. Landjaeger fatback jowl short ribs shoulder sirloin tongue picanha. Boudin tail strip steak shankle, turkey capicola pancetta tongue pork chop drumstick meatloaf. Venison tongue fatback strip steak ribeye kevin, capicola bacon.
+                </p>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

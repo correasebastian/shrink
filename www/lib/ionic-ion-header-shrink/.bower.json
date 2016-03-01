@@ -23,6 +23,5 @@
   },
   "_source": "git://github.com/driftyco/ionic-ion-header-shrink.git",
   "_target": "*",
-  "_originalSource": "ionic-ion-header-shrink",
-  "_direct": true
+  "_originalSource": "ionic-ion-header-shrink"
 }
